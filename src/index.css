@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-family: "Merriweather", serif;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
